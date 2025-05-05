@@ -1,0 +1,55 @@
+📆 Sprint 1 — Semana 1 (Simulada)
+Objetivo: Criar um pequeno sistema de tarefas com cadastro de usuários e login simples, simulando um sistema real de gestão.
+
+🗂️ Tarefas da semana:
+
+ 	Criar estrutura de projeto com pastas: app, models, controllers, utils
+
+ 	Criar cadastro de usuário (salvar em banco SQLite)
+
+ 	Criar login com verificação de senha
+
+ 	Criar CRUD de tarefas (vinculado ao usuário logado)
+
+ 	Testar com dados fictícios
+
+ 	Fazer versão inicial no GitHub com README
+
+✅ Sua primeira tarefa (para hoje):
+
+🧩 Desafio:
+Crie a estrutura do projeto Python com:
+
+	main.py: ponto de entrada da aplicação
+
+	models/user.py: classe ou função de modelo do usuário
+
+	models/task.py: classe ou função de modelo da tarefa
+
+	controllers/auth.py: cadastro e login
+
+	controllers/tasks.py: rotinas de criação e edição de tarefas
+
+	utils/db.py: conexão com SQLite
+
+Use: sqlite3, bcrypt (para senha) e os.
+
+
+
+🔧 Explicação de cada parte:
+
+	main.py → Onde o programa começa. Mostra o menu (login, cadastro, tarefas etc).
+
+	models/user.py → Define a estrutura de dados do usuário (nome, email, senha).
+
+	models/task.py → Define como uma tarefa é representada (título, descrição, status, usuário_id).
+
+	controllers/auth.py → Funções de cadastro e login de usuário (com senha criptografada).
+
+	controllers/tasks.py → Funções para criar, listar, editar e excluir tarefas.
+
+	utils/db.py → Inicializa o banco SQLite e cria as tabelas se não existirem.
+
+	database/sistema.db → O banco de dados local com usuários e tarefas.
+
+

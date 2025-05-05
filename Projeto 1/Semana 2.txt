@@ -1,0 +1,14 @@
+Tarefas para Semana 2:
+
+Refinar o CRUD de Tarefas:
+
+	Atualizar tarefas: Implemente a funcionalidade para editar as tarefas já cadastradas. 
+	Você pode adicionar uma opção no menu para que o usuário possa editar a descrição ou o título de uma tarefa.
+
+	Deletar tarefas: Adicione também a funcionalidade de excluir tarefas, permitindo ao usuário deletar tarefas desnecessárias.
+
+
+Autenticação e Sessão:
+
+	Melhore o controle de autenticação. Em vez de solicitar o login e senha em cada interação com o sistema, 
+	mantenha uma sessão de usuário autenticado enquanto o usuário não fizer logout.
