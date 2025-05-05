@@ -24,7 +24,7 @@ def main():
                 senha = input("Senha: ")
                 usuario_logado = autenticar_usuario(email, senha)
                 if usuario_logado:
-                    salvar_sessao(usuario_logado[0])  # Salva o ID do usuário
+                    salvar_sessao(usuario_logado[0])  
                 else:
                     print("❌ Email ou senha incorretos.")
 
